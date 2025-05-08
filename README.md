@@ -13,12 +13,12 @@ Oracle PL/SQL database project for tax processing and MIS monitoring
 
 ## Features
 
-Taxpayer registration and management
+- Taxpayer registration and management
 
-Filing of tax returns
+- Filing of tax returns
 
-Secure payment processing
+- Secure payment processing
 
-Assignment of tax officers
+- Assignment of tax officers
 
-Automated notifications
+- Automated notifications
