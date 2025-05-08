@@ -22,3 +22,29 @@ Oracle PL/SQL database project for tax processing and MIS monitoring
 - Assignment of tax officers
 
 - Automated notifications
+  
+## Database Tables
+
+- Taxpayer
+
+- TaxReturn
+
+- Payment
+
+- TaxOfficer
+
+- Notification
+
+Each table includes constraints such as primary keys, foreign keys, NOT NULL, UNIQUE, CHECK, and default values.
+
+## Oracle Enterprise Manager (OEM)
+
+### OEM has been set up for:
+
+1. Monitoring database instance
+
+2. Managing schema objects
+
+3. Viewing performance metrics
+
+## Screenshots included under OEM_Screenshots/
