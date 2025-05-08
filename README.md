@@ -47,4 +47,4 @@ Each table includes constraints such as primary keys, foreign keys, NOT NULL, UN
 
 3. Viewing performance metrics
 
-## Screenshots included under OEM_Screenshots/
+## Screenshots included under OEM_Screenshots
