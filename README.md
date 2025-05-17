@@ -10,12 +10,27 @@ Oracle PL/SQL database project for tax processing and MIS monitoring
 ## OVERVIEW
 #### This project involves the design and development of a Tax Management System using Oracle PL/SQL. It includes data modeling, ERD design, database creation, and monitoring using Oracle Enterprise Manager (OEM).
 ### Problem Definition:
-Government institutions often struggle with efficient and transparent tax collection, filing, and tracking. Manual methods or disconnected systems lead to errors, fraud, and delayed reporting.
+Government institutions often struggle with efficient and transparent tax collection, filing, and tracking. Manual methods or disconnected systems lead to errors, fraud, and delayed reporting that leads to tax evasion.
 
 ### Context:
-This system will be used by Rwanda Revenue Authority (RRA) and tax-paying businesses to manage taxes like VAT, PAYE, corporate income tax,etc
-## Features
+This system will be used by Rwanda Revenue Authority (RRA) and tax-paying businesses to manage taxes like VAT, PAYE, corporate income tax,etc.....
 
+### Target Users:
+
+- Tax officers
+- Business owners
+-Accountants
+- Auditors
+- Tax Advisors
+- 
+### Project Goals:
+
+- Automate tax declaration and payment tracking
+- Improve accuracy in tax calculations and reports
+- Provide secure access to tax records
+- Enforce deadline compliance through triggers and validations
+  
+## Features
 - Taxpayer registration and management
 
 - Filing of tax returns
