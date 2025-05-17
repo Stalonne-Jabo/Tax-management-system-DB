@@ -33,17 +33,32 @@ This system will be used by Rwanda Revenue Authority (RRA) and tax-paying busine
 - Provide secure access to tax records
 - Enforce deadline compliance through triggers and validations
   
-## Features
+### Features
 - Taxpayer registration and management
-
 - Filing of tax returns
-
 - Secure payment processing
-
 - Assignment of tax officers
-
 - Automated notifications
-  
+- 
+## PHASE II: Business Process Modeling (MIS) using BPMN Diagram.
+
+### Scope:
+Taxpayer registers → Declares tax → System calculates automatically → Validates payments → Generates reports
+
+### Entities:
+- Taxpayer (Individual or Company)
+- Tax Officer
+- Tax Type (VAT, Income Tax,corporate tax, etc...)
+- Declaration
+- Payment
+- System Database
+- External Integrations (Banks, EBM)
+
+### MIS Functions Supported:
+- Decision Support: Real-time dashboards for revenue analysis
+- Transaction Processing: Secure tax filing and payment recording
+- Audit Trail: Tracks all user and system interactions
+
 ## Database Tables
 
 - Taxpayer
