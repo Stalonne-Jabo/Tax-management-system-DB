@@ -67,6 +67,7 @@ Design an ERD including:
 - Declaration(declaration_id, taxpayer_id, tax_type_id, amount, date_declared, status)
 - Payment(payment_id, declaration_id, amount_paid, payment_date)
 - AuditLog(log_id, user_id, action_type, date_time, status)
+  
 Apply normalization to 3NF and enforce constraints:
 - NOT NULL, UNIQUE on TIN, etc....
 - CHECK on positive amounts
