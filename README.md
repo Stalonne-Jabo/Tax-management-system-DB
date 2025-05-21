@@ -47,11 +47,11 @@
 *Taxpayer registers → Declares tax → System calculates automatically → Validates payments → Generates reports*.
 
 ### Entities:
-- *Taxpayer (Individual or Company):Submits tax forms, makes payments, views status*.
-- *Tax Authority(Tax Officer):Receives processed forms, conducts audits, generates reports, manages compliance*.
-- *Payment:Facilitates online tax payments*.
-- *System Database(Tax Management System):Processes forms, validates data, generates assessments, records payments, provides notifications*.
-- 
+- *Taxpayer (Individual or Company): Submits tax forms, makes payments, views status*.
+- *Tax Authority(Tax Officer): Receives processed forms, conducts audits, generates reports, manages compliance*.
+- *Payment: Facilitates online tax payments*.
+- *System Database(Tax Management System): Processes forms, validates data, generates assessments, records payments, provides notifications*.
+  
 #### BPMN Diagram
 
 ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/BPMN%20Diagram.png)
@@ -63,6 +63,13 @@
   
 ## PHASE III: Logical Model Design.
 
+#### Tasks and Deliverables:
+
+1. Entity-Relationship (ER) Model: Identify and define entities, attributes, primary keys (PKs), and foreign keys (FKs).
+2. Relationships & Constraints: Establish relationships (one-to-one, one-to-many, many-to-many) and apply constraints (NOT NULL, UNIQUE, CHECK, DEFAULT).
+3. Normalization: Ensure 3rd Normal Form (3NF) is achieved.
+4. Handling Data Scenarios: Validate model handles real-world tax scenarios.
+5. Presentation & Feedback: Well-documented and clearly labeled model.
 Design an ERD including:
 - *Company(taxpayer_id, name, type, TIN, email, phone)*.
 - *TaxType(tax_type_id, name, rate, description)*.
@@ -73,6 +80,16 @@ Design an ERD including:
 Apply normalization to 3NF and enforce constraints:
 - *NOT NULL, UNIQUE on TIN, etc....*
 - *CHECK on positive amounts*.
+ 
+## PHASE IV: Pluggable Database Creation and Naming
+
+## PHASE V: Table implementation and Data insertion
+
+## PHASE VI: Database interaction and Transactions
+
+## PHASE VII: Advanced Database Programming and Auditing
+
+## 
 ## Database Tables
 
 - *Company*.
