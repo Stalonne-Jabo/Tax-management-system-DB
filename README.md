@@ -8,7 +8,7 @@
 #### Project Tittle: Tax Management System
 
 ## OVERVIEW
-#### *This project involves the design and development of a Tax Management System using Oracle PL/SQL. It includes data modeling, ERD design, database creation, and monitoring using Oracle Enterprise Manager (OEM)*.
+*This project involves the design and development of a Tax Management System using Oracle PL/SQL. It includes data modeling, ERD design, database creation, and monitoring using Oracle Enterprise Manager (OEM)*.
 
 ## Phase I: PROBLEM DEFINITION & PRESENTATION
 
@@ -62,12 +62,12 @@
 ## PHASE III: Logical Model Design.
 
 Design an ERD including:
-- *Taxpayer(taxpayer_id, name, type, TIN, email, phone)*.
+- *Company(taxpayer_id, name, type, TIN, email, phone)*.
 - *TaxType(tax_type_id, name, rate, description)*.
 - *Declaration(declaration_id, taxpayer_id, tax_type_id, amount, date_declared, status)*.
-- *Payment(payment_id, declaration_id, amount_paid, payment_date)*.
-- *AuditLog(log_id, user_id, action_type, date_time, status)*.
-  
+- *Payment/Tax to be paid(payment_id, declaration_id, amount_paid, payment_date)*.
+- *TaxAudit(log_id, user_id, action_type, date_time, status)*.
+- *Holiday/Terms(holiday_id, Holiday_name,holiday_date)*
 Apply normalization to 3NF and enforce constraints:
 - *NOT NULL, UNIQUE on TIN, etc....*
 - *CHECK on positive amounts*.
