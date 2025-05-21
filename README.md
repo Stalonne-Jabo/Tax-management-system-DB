@@ -8,80 +8,76 @@
 #### Project Tittle: Tax Management System
 
 ## OVERVIEW
-#### This project involves the design and development of a Tax Management System using Oracle PL/SQL. It includes data modeling, ERD design, database creation, and monitoring using Oracle Enterprise Manager (OEM).
+#### *This project involves the design and development of a Tax Management System using Oracle PL/SQL. It includes data modeling, ERD design, database creation, and monitoring using Oracle Enterprise Manager (OEM)*.
 
 ## Phase I: PROBLEM DEFINITION & PRESENTATION
 
 ### Problem Definition:
-Government institutions often struggle with efficient and transparent tax collection, filing, and tracking. Manual methods or disconnected systems lead to errors, fraud, and delayed reporting that leads to tax evasion.
+*Government institutions often struggle with efficient and transparent tax collection, filing, and tracking. Manual methods or disconnected systems lead to errors, fraud, and delayed reporting that leads to tax evasion*.
 
 ### Context:
-This system will be used by Rwanda Revenue Authority (RRA) and tax-paying businesses to manage taxes like VAT, PAYE, corporate income tax,etc.....
+*This system will be used by Rwanda Revenue Authority (RRA) and tax-paying businesses to manage taxes like VAT, PAYE, corporate income tax,etc.....*
 
 ### Target Users:
 
-- Tax officers
-- Business owners
--Accountants
-- Auditors
-- Tax Advisors
+- *Tax officers*.
+- *Business owners*.
+- *Accountants*.
+- *Auditors*.
+- *Tax Advisors*.
   
 ### Project Goals:
 
-- Automate tax declaration and payment tracking
-- Improve accuracy in tax calculations and reports
-- Provide secure access to tax records
-- Enforce deadline compliance through triggers and validations
+- *Automate tax declaration and payment tracking*.
+- *Improve accuracy in tax calculations and reports*.
+- *Provide secure access to tax records*.
+- *Enforce deadline compliance through triggers and validations*.
   
 ### Features
-- Taxpayer registration and management
-- Filing of tax returns
-- Secure payment processing
-- Assignment of tax officers
-- Automated notifications
+- *Taxpayer registration and management*
+- *Filing of tax returns*
+- *Secure payment processing*
+- *Assignment of tax officers*
+- *Automated notifications*
   
 ## PHASE II: Business Process Modeling (MIS) using BPMN Diagram.
 
 ### Scope:
-Taxpayer registers → Declares tax → System calculates automatically → Validates payments → Generates reports
+*Taxpayer registers → Declares tax → System calculates automatically → Validates payments → Generates reports*.
 
 ### Entities:
-- Taxpayer (Individual or Company)
-- Tax Officer
-- Tax Type (VAT, Income Tax,corporate tax, etc...)
-- Declaration
-- Payment
-- System Database
-- External Integrations (Banks, EBM)
+- *Taxpayer (Individual or Company)*.
+- *Tax Officer*.
+- *Tax Type (VAT, Income Tax,corporate tax, etc...)*.
+- *Declaration*.
+- *Payment*.
+- *System Database*.
+- *External Integrations (Banks, EBM)*.
 
 ### MIS Functions Supported:
-- Decision Support: Real-time dashboards for revenue analysis
-- Transaction Processing: Secure tax filing and payment recording
-- Audit Trail: Tracks all user and system interactions
-- 
+- *Decision Support: Real-time dashboards for revenue analysis*.
+- *Transaction Processing: Secure tax filing and payment recording*.
+- *Audit Trail: Tracks all user and system interactions*.
+  
 ## PHASE III: Logical Model Design.
 
 Design an ERD including:
-- Taxpayer(taxpayer_id, name, type, TIN, email, phone)
-- TaxType(tax_type_id, name, rate, description)
-- Declaration(declaration_id, taxpayer_id, tax_type_id, amount, date_declared, status)
-- Payment(payment_id, declaration_id, amount_paid, payment_date)
-- AuditLog(log_id, user_id, action_type, date_time, status)
+- *Taxpayer(taxpayer_id, name, type, TIN, email, phone)*.
+- *TaxType(tax_type_id, name, rate, description)*.
+- *Declaration(declaration_id, taxpayer_id, tax_type_id, amount, date_declared, status)*.
+- *Payment(payment_id, declaration_id, amount_paid, payment_date)*.
+- *AuditLog(log_id, user_id, action_type, date_time, status)*.
   
 Apply normalization to 3NF and enforce constraints:
-- NOT NULL, UNIQUE on TIN, etc....
-- CHECK on positive amounts
+- *NOT NULL, UNIQUE on TIN, etc....*
+- *CHECK on positive amounts*.
 ## Database Tables
 
-- Taxpayer
-
-- TaxReturn
-
-- Payment
-
-- TaxOfficer
-
-- Notification
+- *Company*.
+- *Tax Type*.
+- *Tax to be paid*.
+- *Terms/holidays*.
+- *Tax audit*.
 
 Each table includes constraints such as primary keys, foreign keys, NOT NULL, UNIQUE, CHECK, and default values.
 
@@ -89,10 +85,8 @@ Each table includes constraints such as primary keys, foreign keys, NOT NULL, UN
 
 ### OEM has been set up for:
 
-1. Monitoring database instance
-
-2. Managing schema objects
-
-3. Viewing performance metrics
+1. *Monitoring database instance*.
+2. *Managing schema objects*.
+3. *Viewing performance metrics*.
 
 ## Screenshots included under OEM_Screenshots
