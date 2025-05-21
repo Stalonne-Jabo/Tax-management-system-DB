@@ -13,10 +13,10 @@
 ## Phase I: PROBLEM DEFINITION & PRESENTATION
 
 ### Problem Definition:
-*Government institutions often struggle with efficient and transparent tax collection, filing, and tracking. Manual methods or disconnected systems lead to errors, fraud, and delayed reporting that leads to tax evasion*.
+*Government institutions often struggle with efficient and transparent tax collection, filing, and tracking. Manual methods or disconnected systems lead to errors, fraud, and delayed reporting that leads to tax evasion.There is a need for a centralized, automated system to streamline these operations, improve data accuracy, and enhance transparency*.
 
 ### Context:
-*This system will be used by Rwanda Revenue Authority (RRA) and tax-paying businesses to manage taxes like VAT, PAYE, corporate income tax,etc.....*
+*This system will be used by Rwanda Revenue Authority (RRA) and tax-paying businesses to manage taxes like VAT, PAYE, corporate income tax to manage their tax obligations and by authorities to process filings, monitor compliance and generate reports. It will be accessible online and integrated with existing financial systems where applicable.*
 
 ### Target Users:
 
@@ -43,17 +43,15 @@
 ## PHASE II: Business Process Modeling (MIS) using BPMN Diagram.
 
 ### Scope:
+*To automate the submission of tax forms, track payment status, and provide real-time updates to taxpayers and tax authorities*.
 *Taxpayer registers → Declares tax → System calculates automatically → Validates payments → Generates reports*.
 
 ### Entities:
-- *Taxpayer (Individual or Company)*.
-- *Tax Officer*.
-- *Tax Type (VAT, Income Tax,corporate tax, etc...)*.
-- *Declaration*.
-- *Payment*.
-- *System Database*.
-- *External Integrations (Banks, EBM)*.
-
+- *Taxpayer (Individual or Company):Submits tax forms, makes payments, views status*.
+- *Tax Authority(Tax Officer):Receives processed forms, conducts audits, generates reports, manages compliance*.
+- *Payment:Facilitates online tax payments*.
+- *System Database(Tax Management System):Processes forms, validates data, generates assessments, records payments, provides notifications*.
+- 
 #### BPMN Diagram
 
 ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/BPMN%20Diagram.png)
