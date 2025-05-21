@@ -1,5 +1,5 @@
-** # Tax-management-system-DB **
-* Oracle PL/SQL database project for tax processing and MIS monitoring *
+**# Tax-management-system-DB**
+*Oracle PL/SQL database project for tax processing and MIS monitoring*
 ## Project Information
 #### Group E
 #### Student ID: 27551
