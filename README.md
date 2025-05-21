@@ -53,6 +53,7 @@
 - *Payment*.
 - *System Database*.
 - *External Integrations (Banks, EBM)*.
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/BPMN%20Diagram.png)
 
 ### MIS Functions Supported:
 - *Decision Support: Real-time dashboards for revenue analysis*.
