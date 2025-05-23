@@ -80,7 +80,11 @@ Design an ERD including:
 Apply normalization to 3NF and enforce constraints:
 - *NOT NULL, UNIQUE on TIN, etc....*
 - *CHECK on positive amounts*.
- 
+  
+  #### ERD Diagram
+  
+ ![Conceptual Diagram](ERD Diagram.png)
+
 ## PHASE IV: Pluggable Database Creation and Naming
 
 ## PHASE V: Table implementation and Data insertion
