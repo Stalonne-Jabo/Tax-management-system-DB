@@ -83,7 +83,7 @@ Apply normalization to 3NF and enforce constraints:
   
   #### ERD Diagram
   
- ![Conceptual Diagram](ERD Diagram.png)
+ ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/ERD%20Diagram.png)
 
 ## PHASE IV: Pluggable Database Creation and Naming
 
