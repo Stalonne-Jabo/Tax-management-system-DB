@@ -110,8 +110,8 @@ Apply normalization to 3NF and enforce constraints:
 
 *This advanced database programming phase significantly enhances the Tax Management System's security and aligns with its objectives by:*
 
-*- **Enforcing Strict Compliance**: This is crucial for maintaining data integrity and preventing unauthorized changes when direct oversight might be limited.*
-*- **Automated Auditing**: This provides an immutable record of who attempted what, when, and whether it was allowed or denied.*
-*- **Accountability and Traceability**: In case of discrepancies or security incidents, administrators can easily trace back the actions, identifying the source of any unauthorized attempts.*
-*- **Deterrence**: The knowledge that all actions are logged and restrictions are in place acts as a strong deterrent against malicious or accidental data manipulation.*
-*-**Operational Control**: This mechanism ensures that critical data is only modified during designated periods, reducing the risk of errors or fraudulent activities.*
+- **Enforcing Strict Compliance**: This is crucial for maintaining data integrity and preventing unauthorized changes when direct oversight might be limited.
+- **Automated Auditing**: This provides an immutable record of who attempted what, when, and whether it was allowed or denied.
+- **Accountability and Traceability**: In case of discrepancies or security incidents, administrators can easily trace back the actions, identifying the source of any unauthorized attempts.
+- **Deterrence**: The knowledge that all actions are logged and restrictions are in place acts as a strong deterrent against malicious or accidental data manipulation.
+-**Operational Control**: This mechanism ensures that critical data is only modified during designated periods, reducing the risk of errors or fraudulent activities.
