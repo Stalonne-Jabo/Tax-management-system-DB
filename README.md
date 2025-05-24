@@ -87,12 +87,14 @@ Apply normalization to 3NF and enforce constraints:
 
 ## PHASE IV: Pluggable Database Creation and Naming
 
+ ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/pluggable%20creation.jpg)
+
 ## PHASE V: Table implementation and Data insertion
-
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/table.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/table1.jpg,)
 ## PHASE VI: Database interaction and Transactions
-
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/function.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/procedure.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/pkg.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/pkg%20body.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/body.jpg)
 ## PHASE VII: Advanced Database Programming and Auditing
-
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/trigger.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/trigger1.jpg)
 ## 
 ## Database Tables
 
