@@ -100,6 +100,7 @@ Apply normalization to 3NF and enforce constraints:
 
 *The package that organizes your procedures and functions for the Tax Management System.*
 ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/pkg.jpg)
+
 *The package body that Provides reusable and modular code, Improves performance through persistent memory of package state and Groups related logic together.*
 ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/pkg%20body.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/body.jpg)
 
@@ -107,22 +108,10 @@ Apply normalization to 3NF and enforce constraints:
 *The auditing logic using triggers and the AuditLog table to track user activity (who did what, when, and whether it was allowed or denied).*
 ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/trg.jpg)
 
-## Database Tables
+*This advanced database programming phase significantly enhances the Tax Management System's security and aligns with its objectives by:
 
-- *Company*.
-- *Tax Type*.
-- *Tax to be paid*.
-- *Terms/holidays*.
-- *Tax audit*.
-
-Each table includes constraints such as primary keys, foreign keys, NOT NULL, UNIQUE, CHECK, and default values.
-
-## Oracle Enterprise Manager (OEM)
-
-### OEM has been set up for:
-
-1. *Monitoring database instance*.
-2. *Managing schema objects*.
-3. *Viewing performance metrics*.
-
-## Screenshots included under OEM_Screenshots
+- **Enforcing Strict Compliance**: This is crucial for maintaining data integrity and preventing unauthorized changes when direct oversight might be limited.
+- **Automated Auditing**: This provides an immutable record of who attempted what, when, and whether it was allowed or denied.
+- **Accountability and Traceability**: In case of discrepancies or security incidents, administrators can easily trace back the actions, identifying the source of any unauthorized attempts.
+- **Deterrence**: The knowledge that all actions are logged and restrictions are in place acts as a strong deterrent against malicious or accidental data manipulation.
+-**Operational Control**: This mechanism ensures that critical data is only modified during designated periods, reducing the risk of errors or fraudulent activities.*
