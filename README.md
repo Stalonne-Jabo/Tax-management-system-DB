@@ -92,10 +92,21 @@ Apply normalization to 3NF and enforce constraints:
 ## PHASE V: Table implementation and Data insertion
 ![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/table.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/table1.jpg,)
 ## PHASE VI: Database interaction and Transactions
-![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/function.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/procedure.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/pkg.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/pkg%20body.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/body.jpg)
+*This function calculates tax due based on the declaration and the applicable tax rate.*
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/function.jpg)
+
+*This procedure submits a declaration and logs the status in the audit log.*
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/procedure.jpg)
+
+*The package that organizes your procedures and functions for the Tax Management System.*
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/pkg.jpg)
+*The package body that Provides reusable and modular code, Improves performance through persistent memory of package state and Groups related logic together.*
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/pkg%20body.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/body.jpg)
+
 ## PHASE VII: Advanced Database Programming and Auditing
-![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/trigger.jpg,https://github.com/Stalonne-Jabo/photos/blob/main/trigger1.jpg)
-## 
+*The auditing logic using triggers and the AuditLog table to track user activity (who did what, when, and whether it was allowed or denied).*
+![Conceptual Diagram](https://github.com/Stalonne-Jabo/photos/blob/main/trg.jpg)
+
 ## Database Tables
 
 - *Company*.
