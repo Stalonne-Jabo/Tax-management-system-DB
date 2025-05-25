@@ -71,7 +71,7 @@
 4. Handling Data Scenarios: Validate model handles real-world tax scenarios.
 5. Presentation & Feedback: Well-documented and clearly labeled model.
 Design an ERD including:
-- *Company(taxpayer_id, name, type, TIN, email, phone)*.
+- *Taxpayer(taxpayer_id, name, type, TIN, email, phone)*.
 - *TaxType(tax_type_id, name, rate, description)*.
 - *Declaration(declaration_id, taxpayer_id, tax_type_id, amount, date_declared, status)*.
 - *Payment/Tax to be paid(payment_id, declaration_id, amount_paid, payment_date)*.
